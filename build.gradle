@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'io.testeryou'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+    }
+    test {
+        java {
+            srcDirs = ['test']
+        }
+        resources {
+            srcDirs = ['src/test/resources']
+        }
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.3.0'
+}
