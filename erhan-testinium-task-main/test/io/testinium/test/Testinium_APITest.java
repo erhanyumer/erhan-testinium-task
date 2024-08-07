@@ -1,4 +1,4 @@
-package io.codeshake.test;
+package io.testinium.test;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
