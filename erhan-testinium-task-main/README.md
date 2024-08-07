@@ -1,2 +1,2 @@
-# erhan-testeryou-task
-A private repo for TesterYou task.
+# erhan-testinium-task
+A private repo for Testinium task.
